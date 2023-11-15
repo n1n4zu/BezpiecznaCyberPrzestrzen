@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>BezpiecznaCyberPrzestrzeń</title>
+    <link rel="icon" href="{% static 'img/bcp.png' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
+
 <main>
 
     <header>
@@ -24,14 +26,21 @@
             <a href="{% url 'kontakt' %}"><li>Kontakt</li></a>
           </ul>
         </div>
+
+        <p>BezpiecznaCyberPrzestrzeń</p>
+
     </header>
+
     <section>
 
         {% block content %}
         {% endblock %}
 
     </section>
-    <footer>Stopka</footer>
+
+    <footer>2023 © BezpiecznaCyberPrzestrzeń</footer>
+
 </main>
+
 </body>
 </html>
