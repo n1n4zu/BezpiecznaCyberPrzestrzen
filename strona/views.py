@@ -5,6 +5,10 @@ def base(request):
     return render(request, 'strona/base.html', {})
 
 
+def glowna(request):
+    return render(request, 'strona/glowna.html', {})
+
+
 def posty(request):
     return render(request, 'strona/posty.html', {})
 

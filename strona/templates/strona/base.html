@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
+<main>
 
     <header>
         <div id="menuToggle">
@@ -17,17 +18,20 @@
           <span></span>
 
           <ul id="menu">
-            <a href="{% url 'base' %}"><li>Strona główna</li></a>
+            <a href="{% url 'glowna' %}"><li>Strona główna</li></a>
             <a href="{% url 'posty' %}"><li>Posty</li></a>
-            <a href="{%  url 'nauka' %}"><li>Nauka</li></a>
+            <a href="{% url 'nauka' %}"><li>Nauka</li></a>
             <a href="{% url 'kontakt' %}"><li>Kontakt</li></a>
           </ul>
         </div>
     </header>
+    <section>
 
-    {% block content %}
-    {% endblock %}
+        {% block content %}
+        {% endblock %}
 
+    </section>
     <footer>Stopka</footer>
+</main>
 </body>
 </html>
