@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from django.views.static import serve
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('strona.urls')),
+    path('static/<path:path>', serve, {'document_root': 'strona/static', 'show_indexes': True}),
 ]
 
 handler404 = 'strona.views.error_404_view'
