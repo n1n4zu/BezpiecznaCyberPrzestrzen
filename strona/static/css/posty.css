@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
 }
-.tytul, h1{
+.tytul, .h-tytul{
     color: blue;
     font-size: 50px;
     text-decoration: none;
