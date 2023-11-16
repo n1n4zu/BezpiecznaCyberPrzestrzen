@@ -20,3 +20,7 @@ def nauka(request):
 def kontakt(request):
     return render(request, 'strona/kontakt.html', {})
 
+
+def error_404_view(request, exception):
+    data = {"name": 'Blog dla programistów'}
+    return render(request, 'strona/404.html', data)
