@@ -22,5 +22,5 @@ def kontakt(request):
 
 
 def error_404_view(request, exception):
-    data = {"name": 'Blog dla programistów'}
+    data = {"name": 'BezpiecznaCyberPrzestrzeń'}
     return render(request, 'strona/404.html', data)
