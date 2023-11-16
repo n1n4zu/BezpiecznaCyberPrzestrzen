@@ -1,75 +1,237 @@
-#main-posty{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Code-wallpaper-2.jpg');
-    background-size: conatin;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#posty{
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 85vh;
-    width: 65vw;
-    overflow-y: scroll;
-    box-shadow: 20px 20px 40px #000000;
-    border-radius: 20px;
-}
-.post{
-    margin: 20px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 20px;
-    text-align: center;
-    align-items: center;
-    box-shadow: 10px 10px 50px #000000;
-}
-.post-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.post-img > .image{
-    height: 200px;
-    width: 400px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.tytul, .h-tytul{
-    color: blue;
-    font-size: 50px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.tekst{
-    font-size: 30px;
-    color: black;
-    text-align: left;
-    margin-left: 10px;
-}
-.data{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-::-webkit-scrollbar {
-    width: 12px;
-}
+@media screen and (min-width: 900px) {
+    #main-posty{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Code-wallpaper-2.jpg');
+        background-size: conatin;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #posty{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 85vh;
+        width: 65vw;
+        overflow-y: scroll;
+        box-shadow: 20px 20px 40px #000000;
+        border-radius: 20px;
+    }
+    .post{
+        margin: 20px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        box-shadow: 10px 10px 50px #000000;
+    }
+    .post-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .post-img > .image{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    img{
+        height: 200px;
+        width: 400px;
+    }
+    .tytul, .h-tytul{
+        color: blue;
+        font-size: 50px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tekst{
+        font-size: 30px;
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .data{
+        font-size: 20px;
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
 
-::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczysty kolor paska przewijania */
-    border-radius: 20px;
-}
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczysty kolor paska przewijania */
+        border-radius: 20px;
+    }
 
-::-webkit-scrollbar-track {
-    background-color: gray; /* Kolor tła paska przewijania */
-}
+    ::-webkit-scrollbar-track {
+        background-color: gray; /* Kolor tła paska przewijania */
+    }
 
-#posty::-webkit-scrollbar-track {
-    border-radius: 20px;
-    background-color: gray; /* Kolor tła paska przewijania */
+    #posty::-webkit-scrollbar-track {
+        border-radius: 20px;
+        background-color: gray; /* Kolor tła paska przewijania */
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    #main-posty{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Code-wallpaper-2.jpg');
+        background-size: conatin;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #posty{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 85vh;
+        width: 77.5vw;
+        overflow-y: scroll;
+        box-shadow: 20px 20px 40px #000000;
+        border-radius: 20px;
+    }
+    .post{
+        margin: 20px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        box-shadow: 10px 10px 50px #000000;
+    }
+    .post-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .post-img > .image{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    img{
+        height: 150px;
+        width: 300px;
+    }
+    .tytul, .h-tytul{
+        color: blue;
+        font-size: 37px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tekst{
+        font-size: 22px;
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .data{
+        font-size: 15px;
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczysty kolor paska przewijania */
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: gray; /* Kolor tła paska przewijania */
+    }
+
+    #posty::-webkit-scrollbar-track {
+        border-radius: 20px;
+        background-color: gray; /* Kolor tła paska przewijania */
+    }
+}
+@media screen and (max-width: 500px){
+    #main-posty{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Code-wallpaper-2.jpg');
+        background-size: conatin;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #posty{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 85vh;
+        width: 90vw;
+        overflow-y: scroll;
+        box-shadow: 20px 20px 40px #000000;
+        border-radius: 20px;
+    }
+    .post{
+        margin: 20px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        box-shadow: 10px 10px 50px #000000;
+    }
+    .post-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .post-img > .image{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    img{
+        height: 100px;
+        width: 200px;
+    }
+    .tytul, .h-tytul{
+        color: blue;
+        font-size: 25px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tekst{
+        font-size: 15px;
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .data{
+        font-size: 10px;
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczysty kolor paska przewijania */
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: gray; /* Kolor tła paska przewijania */
+    }
+
+    #posty::-webkit-scrollbar-track {
+        border-radius: 20px;
+        background-color: gray; /* Kolor tła paska przewijania */
+    }
 }
