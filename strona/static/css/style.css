@@ -4,14 +4,14 @@
     padding: 0;
 }
 main{
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
 }
 header{
     background-color: blue;
     width: 100%;
-    height: 5%;
+    height: 5vh;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -24,7 +24,7 @@ header{
 }
 footer{
     width: 100%;
-    height: 5%;
+    height: 5vh;
     background-color: blue;
     font-size: 30px;
     color: red;
@@ -33,7 +33,7 @@ footer{
     align-items: center;
     margin-bottom: auto;
 }
-p{
+#header-paragraph{
     font-size: 30px;
     color: red;
 }
