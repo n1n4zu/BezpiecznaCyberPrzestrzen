@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-main{
+#total-main{
     min-height: 90vh;
     display: flex;
     flex-direction: column;

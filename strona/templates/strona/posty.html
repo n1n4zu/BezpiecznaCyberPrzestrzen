@@ -6,9 +6,9 @@
 
     <div id="posty">
         {%  for post in posts %}
-            <div class="post">
+            <div class="post" class="post-img">
                 <p class="tytul"><h1 class="h-tytul">{{  post.title }}</h1></p>
-                <p><img src="{{ post.image.url }}" alt="{{ Obrazek }}" class="image" height="200px" width="200px"></p>
+                <p><img src="{{ post.image.url }}" alt="{{ Obrazek }}" class="image" height="200px" width="400px"></p>
                 <p class="tekst">{{  post.text }}</p>
                 <p class="data">Opublikowano: {{ post.published_date }}</p>
             </div>
