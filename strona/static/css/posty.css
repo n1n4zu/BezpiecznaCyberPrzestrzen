@@ -18,12 +18,15 @@
     }
     .post{
         margin: 20px;
-        background-color: white;
+        background-color: #929fad;
         border: 1px solid black;
         border-radius: 20px;
         text-align: center;
         align-items: center;
         box-shadow: 10px 10px 50px #000000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
     }
     .post-img{
         display: flex;
@@ -38,26 +41,15 @@
         height: 200px;
         width: 400px;
     }
-    .tytul, .h-tytul{
-        color: blue;
-        font-size: 50px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .tekst{
         font-size: 30px;
         color: black;
         text-align: left;
-        margin-left: 10px;
     }
     .data{
         font-size: 20px;
         color: black;
         text-align: left;
-        margin-left: 10px;
-        margin-bottom: 10px;
     }
     ::-webkit-scrollbar {
         width: 12px;
@@ -97,12 +89,15 @@
     }
     .post{
         margin: 20px;
-        background-color: white;
+        background-color: #929fad;
         border: 1px solid black;
         border-radius: 20px;
         text-align: center;
         align-items: center;
         box-shadow: 10px 10px 50px #000000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
     }
     .post-img{
         display: flex;
@@ -117,26 +112,15 @@
         height: 150px;
         width: 300px;
     }
-    .tytul, .h-tytul{
-        color: blue;
-        font-size: 37px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .tekst{
         font-size: 22px;
         color: black;
         text-align: left;
-        margin-left: 10px;
     }
     .data{
         font-size: 15px;
         color: black;
         text-align: left;
-        margin-left: 10px;
-        margin-bottom: 10px;
     }
     ::-webkit-scrollbar {
         width: 12px;
@@ -176,12 +160,15 @@
     }
     .post{
         margin: 20px;
-        background-color: white;
+        background-color: #929fad;
         border: 1px solid black;
         border-radius: 20px;
         text-align: center;
         align-items: center;
         box-shadow: 10px 10px 50px #000000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
     }
     .post-img{
         display: flex;
@@ -196,26 +183,15 @@
         height: 100px;
         width: 200px;
     }
-    .tytul, .h-tytul{
-        color: blue;
-        font-size: 25px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .tekst{
         font-size: 15px;
         color: black;
         text-align: left;
-        margin-left: 10px;
     }
     .data{
         font-size: 10px;
         color: black;
         text-align: left;
-        margin-left: 10px;
-        margin-bottom: 10px;
     }
     ::-webkit-scrollbar {
         width: 12px;
