@@ -1,0 +1,46 @@
+#kontakt{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../img/serwery.jpg');
+    width: 100%;
+    height: 90vh;
+    padding-top: 20px;
+}
+#kontakt h1{
+    text-align: center;
+    color: #2cb086;
+    font: bold 100px 'Franchise Light';
+    margin-bottom: 20px;
+}
+#kontakt #linki{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font: bold 20px 'Franchise Light';
+    text-decoration: none;
+    background-color: #44779A;
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+}
+#linki p{
+    color: black;
+    margin: 40px;
+}
+#linki a:hover{
+    color: lightgreen;
+}
+#linki a{
+    text-decoration: none;
+    color: darkblue;
+}
+#linki a:visited{
+    color: gold;
+}

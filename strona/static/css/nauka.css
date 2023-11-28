@@ -1,0 +1,30 @@
+#main-nauka{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lekcje{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    border-radius: 10px;
+}
+.lekcje:hover{
+    box-shadow: 2px 2px 20px #000000;
+}
+.link{
+    font: bold 12px 'Franchise Light';
+    color: #44779A;
+    text-decoration: none;
+    text-align: center;
+}
+.lekcje-obrazek{
+    height: 170px;
+    width: 196px;
+    margin: 1px;
+}
+hr{
+    border-color: lightgrey;
+}

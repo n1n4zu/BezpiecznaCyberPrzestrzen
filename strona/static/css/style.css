@@ -39,6 +39,11 @@
         color: #CCCCCC;
     }
 
+    #img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     #img img{
         display: block;
         margin-left: auto;
