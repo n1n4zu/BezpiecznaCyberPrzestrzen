@@ -4,15 +4,19 @@
 
 <main id="main-posty">
 
-    <div id="posty">
-        {%  for post in posts %}
-            <div class="post" class="post-img">
-                <p><img src="{{ post.image.url }}" alt="{{ Obrazek }}" class="image"></p>
-                <p class="tekst">{{  post.text }}</p>
-                <p class="data">Opublikowano: {{ post.published_date }}</p>
-            </div>
-        {% endfor %}
-    </div>
+    {% if posts %}
+        <div id="posty">
+            {%  for post in posts %}
+                <div class="post" class="post-img">
+                    <p><img src="{{ post.image.url }}" alt="{{ Obrazek }}" class="image"></p>
+                    <p class="tekst">{{  post.text }}</p>
+                    <p class="data">Opublikowano: {{ post.published_date }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <h1 style="color: white;">BRAK POSTÓW DO WYŚWIETLENIA</h1>
+    {% endif %}
 
 </main>
 

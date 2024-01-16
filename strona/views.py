@@ -23,6 +23,9 @@ def nauka(request):
 def kontakt(request):
     return render(request, 'strona/kontakt.html', {})
 
+def wiecej(request):
+    return render(request, 'strona/wiecej.html', {})
+
 
 def error_404_view(request, exception):
     data = {"name": 'BezpiecznaCyberPrzestrzeń'}

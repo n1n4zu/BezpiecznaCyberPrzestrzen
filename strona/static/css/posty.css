@@ -12,7 +12,7 @@
         background-color: rgba(0, 0, 0, 0.3);
         height: 85vh;
         width: 65vw;
-        overflow-y: scroll;
+        overflow-y: auto;
         box-shadow: 20px 20px 40px #000000;
         border-radius: 20px;
     }

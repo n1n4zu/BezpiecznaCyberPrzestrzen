@@ -3,6 +3,16 @@
     background-color: black;
     padding-bottom: 50px;
 }
+.animate__slideInDown {
+    display: inline-block;
+    margin: 2 2rem;
+    animation: slideInDown;
+    animation-duration: 2s;
+}
+.proj{
+    color: white;
+}
+
 @media screen and (min-width: 900px){
     .container-glowna
     {
@@ -53,113 +63,12 @@
         transform: rotate(-5deg);
         elevation: 50deg;
     }
-    #opis{
+
+    .proj p{
         margin-left: 20%;
         margin-right: 20%;
         text-align: justify;
         font-size: 20px;
-        color: white;
-    }
-}
-@media screen and (max-width: 900px) and (min-width: 500px) {
-    .container-glowna
-    {
-        width: 80vw;
-        margin: 0;
-        position: realative;
-    }
-    .wrapper {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 
-    #baner h1 {
-        padding-bottom: 20px;
-        font-size: 45px;
-    }
-    #baner {
-        background: url(https://images.unsplash.com/photo-1541728472741-03e45a58cf88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
-        height: 100vh;
-        background-size: conatin;
-        color: white;
-        text-align: center;
-        position: relative;
-    }
-    #baner p
-    {
-        color: white;
-    }
-
-    #baner button
-    {
-        padding: 10px;
-        margin-top: 15px;
-        border-radius: 15px;
-        border: 2px solid white;
-        background: transparent;
-        color: white;
-        transition: 0.3;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
-
-    }
-    #baner button:hover
-    {
-        color: #64DD17;
-        background: #212121;
-        transform: rotate(-5deg);
-        elevation: 50deg;
-    }
-}
-@media screen and (max-width: 500px){
-    .container-glowna
-    {
-        width: 80vw;
-        margin: 0;
-        position: realative;
-    }
-    .wrapper {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    #baner h1 {
-        padding-bottom: 20px;
-        font-size: 30px;
-    }
-    #baner {
-        background: url(https://images.unsplash.com/photo-1541728472741-03e45a58cf88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
-        height: 100vh;
-        background-size: conatin;
-        color: white;
-        text-align: center;
-        position: relative;
-    }
-    #baner p
-    {
-        color: white;
-    }
-
-    #baner button
-    {
-        padding: 10px;
-        margin-top: 15px;
-        border-radius: 15px;
-        border: 2px solid white;
-        background: transparent;
-        color: white;
-        transition: 0.3;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
-
-    }
-    #baner button:hover
-    {
-        color: #64DD17;
-        background: #212121;
-        transform: rotate(-5deg);
-        elevation: 50deg;
-    }
 }
