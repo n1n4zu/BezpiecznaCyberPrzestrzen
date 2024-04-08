@@ -8,7 +8,8 @@
         <div id="posty">
             {%  for post in posts %}
                 <div class="post" class="post-img">
-                    <p><img src="{{ post.image.url }}" alt="{{ Obrazek }}" class="image"></p>
+                    {% load static %}
+                    <p><img src="{% static post.image.url %}" alt="grafika dla postu" class="image"></p>
                     <p class="tekst">{{  post.text }}</p>
                     <p class="data">Opublikowano: {{ post.published_date }}</p>
                 </div>

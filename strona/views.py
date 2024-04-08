@@ -16,12 +16,9 @@ def posty(request):
     return render(request, 'strona/posty.html', {'posts': posts})
 
 
-def nauka(request):
-    return render(request, 'strona/nauka.html', {})
-
-
 def kontakt(request):
     return render(request, 'strona/kontakt.html', {})
+
 
 def wiecej(request):
     return render(request, 'strona/wiecej.html', {})
